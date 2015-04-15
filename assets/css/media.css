@@ -1,19 +1,31 @@
 @media screen and (max-width:767px) {
-
+	.thumbnail {
+		width: 100%;
+		margin: 0;
+	}
 }
 
 @media screen and (min-width:768px) {
-
+	.thumbnail {
+		width: 45%;
+	}
 }
 
 @media screen and (min-width:992px) {
-
+	.container {
+		text-align: left;
+	}
+	.thumbnail {
+		width: 30%;
+	}
 }
 
 @media screen and (min-width:1200px) {
+	.container {
+		text-align: center;
+	}
 
-}
-
-@media screen and (min-width:1350px) {
-
+	.thumbnail {
+		width: 22%;
+	}
 }
